@@ -1,0 +1,42 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc} 
+\usepackage[francais]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper]{geometry}
+\usepackage{array}
+\usepackage{wrapfig}
+\hypersetup{pdfborder={0 0 0}}
+\geometry{hscale=0.80,vscale=0.80,centering}
+
+\title{GumGum - Internship report}
+\author{florian.dambrine }
+\date{February 2014}
+
+\begin{document}
+\maketitle
+
+\newpage
+
+\setcounter{secnumdepth}{0}
+
+\input{src/general/thanks}
+
+\input{src/general/tablesOfContent}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% General parts
+\input{src/general/summary}
+\input{src/general/introduction}
+
+\setcounter{secnumdepth}{5}
+
+\input{src/company/gumgum-main}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Technical parts
+\input{src/technical/architecture}
+
+\end{document}
